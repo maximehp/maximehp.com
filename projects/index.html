@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Maxime Hendryx-Parker</title>
+    <meta name="description" content="Project gallery for Maxime Hendryx-Parker with image sets, descriptions, and project links.">
+    <link rel="stylesheet" href="/styles/site.css">
+</head>
+<body data-page="projects">
+    <div class="ambient-layer" aria-hidden="true"></div>
+    <header class="site-header">
+        <div class="header-core">
+            <nav class="site-nav" aria-label="Primary">
+                <span class="nav-indicator" aria-hidden="true"></span>
+                <a class="nav-link" data-nav="home" href="/">Home</a>
+                <a class="nav-link" data-nav="projects" href="/projects/">Projects</a>
+                <a class="nav-link" data-nav="about" href="/about/">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="page-root">
+        <main class="page-shell">
+            <section class="page-intro reveal">
+                <div class="glass-panel">
+                    <p class="eyebrow">Projects</p>
+                    <h1>Full gallery</h1>
+                    <p class="section-copy">Every project appears here at once. Each tile can cycle through its image set, and opening a tile reveals the complete media set, description, and external link when one exists.</p>
+                </div>
+            </section>
+
+            <section class="section-block reveal">
+                <div class="projects-grid" id="projects-grid"></div>
+            </section>
+        </main>
+
+        <div class="project-modal" id="project-modal" hidden>
+            <div class="project-modal__scrim" data-close-modal></div>
+            <div class="project-modal__dialog glass-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+                <button class="modal-close" type="button" data-close-modal aria-label="Close project details">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-media">
+                    <button class="modal-media__arrow" type="button" data-modal-prev aria-label="Previous project image">
+                        <span aria-hidden="true">&larr;</span>
+                    </button>
+                    <figure class="modal-media__frame">
+                        <img id="modal-image" src="" alt="">
+                        <figcaption id="modal-caption"></figcaption>
+                    </figure>
+                    <button class="modal-media__arrow" type="button" data-modal-next aria-label="Next project image">
+                        <span aria-hidden="true">&rarr;</span>
+                    </button>
+                </div>
+                <div class="thumb-strip" id="modal-thumbs"></div>
+                <div class="modal-copy">
+                    <div class="modal-copy__header">
+                        <div>
+                            <p class="eyebrow">Selected project</p>
+                            <h2 id="modal-title"></h2>
+                        </div>
+                        <a class="button-ghost" id="modal-link" href="#" target="_blank" rel="noreferrer" hidden>Open Project</a>
+                    </div>
+                    <p class="modal-summary" id="modal-summary"></p>
+                    <p class="modal-description" id="modal-description"></p>
+                    <div class="tag-row" id="modal-tags"></div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="site-footer">
+            <p>&copy; <span data-current-year></span> <span data-footer-name></span></p>
+        </footer>
+    </div>
+
+    <script type="module" src="/scripts/app.js"></script>
+</body>
+</html>

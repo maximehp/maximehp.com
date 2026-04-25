@@ -1,0 +1,21 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="1000" rx="40" fill="#070606"/>
+<rect x="44" y="44" width="1512" height="912" rx="28" fill="url(#paint0_linear)" fill-opacity="0.2" stroke="#FBE7D4" stroke-opacity="0.18"/>
+<rect x="124" y="96" width="430" height="808" rx="48" fill="#F6E4D4" fill-opacity="0.08"/>
+<rect x="620" y="156" width="856" height="180" rx="34" fill="#F6E4D4" fill-opacity="0.08"/>
+<rect x="620" y="382" width="400" height="212" rx="32" fill="#F6E4D4" fill-opacity="0.08"/>
+<rect x="1076" y="382" width="400" height="212" rx="32" fill="#F6E4D4" fill-opacity="0.08"/>
+<rect x="620" y="640" width="856" height="212" rx="32" fill="#F6E4D4" fill-opacity="0.08"/>
+<circle cx="1322" cy="186" r="134" fill="url(#paint1_radial)" fill-opacity="0.7"/>
+<text x="144" y="164" fill="#F7F1EB" fill-opacity="0.88" font-family="Avenir Next, Trebuchet MS, sans-serif" font-size="34" letter-spacing="0.16em">EVENT DISCOVERY</text>
+<defs>
+<linearGradient id="paint0_linear" x1="142" y1="80" x2="1484" y2="932" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE6CE"/>
+<stop offset="1" stop-color="#FFB474" stop-opacity="0.12"/>
+</linearGradient>
+<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1322 186) rotate(90) scale(134)">
+<stop stop-color="#FFE2C5"/>
+<stop offset="1" stop-color="#FFE2C5" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

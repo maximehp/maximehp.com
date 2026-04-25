@@ -1,0 +1,21 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="1000" rx="40" fill="#060606"/>
+<rect x="40" y="40" width="1520" height="920" rx="30" fill="url(#paint0_linear)" fill-opacity="0.28" stroke="#FBE7D4" stroke-opacity="0.18"/>
+<rect x="110" y="122" width="1380" height="90" rx="45" fill="#F6E4D4" fill-opacity="0.09" stroke="#FCE7D5" stroke-opacity="0.1"/>
+<rect x="110" y="284" width="870" height="492" rx="32" fill="#F6E4D4" fill-opacity="0.08"/>
+<rect x="1020" y="284" width="470" height="228" rx="28" fill="#F6E4D4" fill-opacity="0.08"/>
+<rect x="1020" y="548" width="470" height="228" rx="28" fill="#F6E4D4" fill-opacity="0.08"/>
+<circle cx="1320" cy="186" r="148" fill="url(#paint1_radial)" fill-opacity="0.7"/>
+<text x="118" y="182" fill="#F7F1EB" fill-opacity="0.9" font-family="Avenir Next, Trebuchet MS, sans-serif" font-size="40" letter-spacing="0.16em">PERSONAL SITE / HOME</text>
+<text x="118" y="840" fill="#F7F1EB" fill-opacity="0.7" font-family="Avenir Next, Trebuchet MS, sans-serif" font-size="30" letter-spacing="0.16em">GLASSMORPHISM HERO + FEATURED PROJECTS</text>
+<defs>
+<linearGradient id="paint0_linear" x1="110" y1="66" x2="1450" y2="920" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE0C3"/>
+<stop offset="1" stop-color="#FFB271" stop-opacity="0.16"/>
+</linearGradient>
+<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1320 186) rotate(90) scale(148)">
+<stop stop-color="#FFE2C5"/>
+<stop offset="1" stop-color="#FFE2C5" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

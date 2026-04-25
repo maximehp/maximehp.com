@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Maxime Hendryx-Parker</title>
+    <meta name="description" content="Embedded resume and download page for Maxime Hendryx-Parker.">
+    <link rel="stylesheet" href="/styles/site.css">
+</head>
+<body data-page="resume">
+    <div class="ambient-layer" aria-hidden="true"></div>
+    <header class="site-header">
+        <div class="header-core">
+            <nav class="site-nav" aria-label="Primary">
+                <span class="nav-indicator" aria-hidden="true"></span>
+                <a class="nav-link" data-nav="home" href="/">Home</a>
+                <a class="nav-link" data-nav="projects" href="/projects/">Projects</a>
+                <a class="nav-link" data-nav="about" href="/about/">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="page-root">
+        <main class="page-shell">
+            <section class="page-intro reveal">
+                <div class="glass-panel">
+                    <p class="eyebrow">Resume</p>
+                    <h1>View or download the PDF</h1>
+                    <p class="section-copy" id="resume-summary"></p>
+                    <div class="hero-actions">
+                        <a class="button-primary" id="resume-download" href="#" download>Download PDF</a>
+                        <a class="button-ghost" href="/about/">Back to About</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-block reveal">
+                <div class="glass-panel resume-panel">
+                    <object class="resume-object" id="resume-object" data="" type="application/pdf">
+                        <div class="resume-fallback">
+                            <p>Embedded PDF viewing is not available in this browser.</p>
+                            <a class="button-primary" id="resume-fallback" href="#" download>Open the PDF directly</a>
+                        </div>
+                    </object>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; <span data-current-year></span> <span data-footer-name></span></p>
+        </footer>
+    </div>
+
+    <script type="module" src="/scripts/app.js"></script>
+</body>
+</html>

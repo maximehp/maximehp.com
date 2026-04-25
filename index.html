@@ -2,98 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Maxime Hendryx-Parker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-
-        header {
-            background-color: #1e1e2f;
-            color: white;
-            padding: 2rem;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        header p {
-            font-size: 1.2rem;
-            margin-top: 0.5rem;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-
-        section {
-            margin-bottom: 2rem;
-        }
-
-        h2 {
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 0.3rem;
-        }
-
-        a {
-            color: #007acc;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #1e1e2f;
-            color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Maxime Hendryx-Parker</title>
+    <meta name="description" content="Portfolio site for Maxime Hendryx-Parker: projects, background, resume, and contact details.">
+    <link rel="stylesheet" href="/styles/site.css">
 </head>
-<body>
-    <header>
-        <h1>Maxime Hendryx-Parker</h1>
-        <p>College student • Developer • Cloud Enthusiast</p>
+<body data-page="home">
+    <div class="ambient-layer" aria-hidden="true"></div>
+    <header class="site-header">
+        <div class="header-core">
+            <nav class="site-nav" aria-label="Primary">
+                <span class="nav-indicator" aria-hidden="true"></span>
+                <a class="nav-link" data-nav="home" href="/">Home</a>
+                <a class="nav-link" data-nav="projects" href="/projects/">Projects</a>
+                <a class="nav-link" data-nav="about" href="/about/">About</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Hello! I’m Maxime, a computer science and IT student with experience in Python, AWS, and serverless applications.
-            I enjoy building projects, exploring new technologies, and solving complex problems.</p>
-        </section>
+    <div id="page-root">
+        <main class="page-shell">
+            <section class="hero reveal is-visible">
+                <div class="hero-copy">
+                    <div class="hero-copy__content">
+                        <h1 class="hero-title" id="hero-name"></h1>
+                        <p class="hero-subtitle" id="hero-title"></p>
+                        <p class="hero-summary" id="hero-summary"></p>
+                        <div class="hero-actions">
+                            <a class="button-primary" href="/projects/">See Projects</a>
+                            <a class="button-ghost" href="/about/">About Me</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-        <section>
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="#">Personal Website</a> – This site!</li>
-            </ul>
-        </section>
+            <section class="section-block section-block--lifted" data-scroll-lift>
+                <div class="section-heading section-heading--single">
+                    <h2>Featured work</h2>
+                </div>
+                <div class="carousel-shell">
+                    <button class="carousel-arrow" type="button" data-carousel-prev aria-label="Previous featured project">
+                        <span aria-hidden="true">&larr;</span>
+                    </button>
+                    <div class="carousel-window" tabindex="0" aria-label="Featured projects carousel">
+                        <div class="carousel-track" id="project-carousel-track"></div>
+                    </div>
+                    <button class="carousel-arrow" type="button" data-carousel-next aria-label="Next featured project">
+                        <span aria-hidden="true">&rarr;</span>
+                    </button>
+                </div>
+            </section>
 
-        <section>
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:me@maximehp.com">me@maximehp.com</a></p>
-            <p>GitHub: <a href="https://github.com/maximehp" target="_blank">github.com/maximehp</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/maximehp" target="_blank">linkedin.com/in/maximehp</a></p>
-        </section>
-    </main>
+            <section class="section-block is-visible">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Connect</p>
+                        <h2>Accounts, contact, and resume</h2>
+                    </div>
+                    <p class="section-copy">This section doubles as the quick-access link bar for profiles, direct contact, and the resume viewer.</p>
+                </div>
+                <div class="split-grid">
+                    <div class="glass-panel link-panel">
+                        <h3>Reach out</h3>
+                        <ul class="contact-list">
+                            <li><span>Email</span> <a data-email-link href="#">Loading...</a></li>
+                            <li><span>Availability</span> <span id="home-availability"></span></li>
+                            <li><span>Resume</span> <a data-resume-link href="/resume/">View Resume</a></li>
+                        </ul>
+                    </div>
+                    <div class="glass-panel link-panel">
+                        <h3>Account gallery</h3>
+                        <div class="social-grid" id="home-socials"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-    <footer>
-        &copy; 2025 Maxime Hendryx-Parker
-    </footer>
+        <footer class="site-footer">
+            <p>&copy; <span data-current-year></span> <span data-footer-name></span></p>
+        </footer>
+    </div>
+
+    <script type="module" src="/scripts/app.js"></script>
 </body>
 </html>

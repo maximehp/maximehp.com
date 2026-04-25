@@ -1,0 +1,22 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="1000" rx="40" fill="#070606"/>
+<rect x="42" y="42" width="1516" height="916" rx="32" fill="url(#paint0_linear)" fill-opacity="0.2" stroke="#FBE7D4" stroke-opacity="0.18"/>
+<rect x="116" y="112" width="1368" height="124" rx="32" fill="#F6E4D4" fill-opacity="0.08"/>
+<rect x="116" y="294" width="760" height="560" rx="34" fill="#F6E4D4" fill-opacity="0.08"/>
+<rect x="922" y="294" width="562" height="244" rx="30" fill="#F6E4D4" fill-opacity="0.08"/>
+<rect x="922" y="566" width="562" height="288" rx="30" fill="#F6E4D4" fill-opacity="0.08"/>
+<path d="M1038 666H1368" stroke="#FFD3B0" stroke-width="14" stroke-linecap="round"/>
+<path d="M1038 726H1288" stroke="#FFD3B0" stroke-opacity="0.7" stroke-width="14" stroke-linecap="round"/>
+<circle cx="266" cy="184" r="112" fill="url(#paint1_radial)" fill-opacity="0.7"/>
+<text x="116" y="198" fill="#F7F1EB" fill-opacity="0.88" font-family="Avenir Next, Trebuchet MS, sans-serif" font-size="38" letter-spacing="0.16em">SINGLE EVENT DETAIL</text>
+<defs>
+<linearGradient id="paint0_linear" x1="110" y1="70" x2="1492" y2="920" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE3C8"/>
+<stop offset="1" stop-color="#FFB271" stop-opacity="0.12"/>
+</linearGradient>
+<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(266 184) rotate(90) scale(112)">
+<stop stop-color="#FFE2C5"/>
+<stop offset="1" stop-color="#FFE2C5" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

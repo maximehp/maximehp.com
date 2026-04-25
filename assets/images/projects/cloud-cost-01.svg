@@ -1,0 +1,17 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="1000" rx="40" fill="#050505"/>
+<rect x="42" y="42" width="1516" height="916" rx="28" fill="url(#paint0_linear)" fill-opacity="0.22" stroke="#FBE7D4" stroke-opacity="0.16"/>
+<rect x="110" y="120" width="500" height="180" rx="28" fill="#F6E4D4" fill-opacity="0.08"/>
+<rect x="650" y="120" width="390" height="180" rx="28" fill="#F6E4D4" fill-opacity="0.08"/>
+<rect x="1080" y="120" width="390" height="180" rx="28" fill="#F6E4D4" fill-opacity="0.08"/>
+<rect x="110" y="350" width="940" height="460" rx="30" fill="#F6E4D4" fill-opacity="0.08"/>
+<rect x="1090" y="350" width="380" height="460" rx="30" fill="#F6E4D4" fill-opacity="0.08"/>
+<path d="M176 702C232 616 304 620 378 550C456 476 540 552 622 482C708 408 790 488 874 410C930 358 980 348 1010 358" stroke="#FFD3B0" stroke-width="12" stroke-linecap="round"/>
+<text x="118" y="202" fill="#F7F1EB" fill-opacity="0.88" font-family="Avenir Next, Trebuchet MS, sans-serif" font-size="40" letter-spacing="0.16em">CLOUD COST SNAPSHOT</text>
+<defs>
+<linearGradient id="paint0_linear" x1="132" y1="92" x2="1428" y2="922" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE0C3"/>
+<stop offset="1" stop-color="#FFB271" stop-opacity="0.12"/>
+</linearGradient>
+</defs>
+</svg>

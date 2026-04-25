@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Maxime Hendryx-Parker</title>
+    <meta name="description" content="About Maxime Hendryx-Parker, including bio, interests, contact details, and account links.">
+    <link rel="stylesheet" href="/styles/site.css">
+</head>
+<body data-page="about">
+    <div class="ambient-layer" aria-hidden="true"></div>
+    <header class="site-header">
+        <div class="header-core">
+            <nav class="site-nav" aria-label="Primary">
+                <span class="nav-indicator" aria-hidden="true"></span>
+                <a class="nav-link" data-nav="home" href="/">Home</a>
+                <a class="nav-link" data-nav="projects" href="/projects/">Projects</a>
+                <a class="nav-link" data-nav="about" href="/about/">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="page-root">
+        <main class="page-shell">
+            <section class="about-hero reveal">
+                <div class="glass-panel portrait-panel">
+                    <img id="about-photo" src="" alt="">
+                </div>
+                <div class="glass-panel about-copy">
+                    <p class="eyebrow">About Me</p>
+                    <h1 id="about-title"></h1>
+                    <p class="hero-subtitle" id="about-subtitle"></p>
+                    <p class="hero-summary" id="about-summary"></p>
+                    <div class="hero-actions">
+                        <a class="button-primary" href="/projects/">Browse Projects</a>
+                        <a class="button-ghost" data-resume-link href="/resume/">View Resume</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-block reveal">
+                <div class="split-grid">
+                    <div class="glass-panel">
+                        <p class="eyebrow">Full Bio</p>
+                        <div class="bio-stack" id="about-bio"></div>
+                    </div>
+                    <div class="glass-panel">
+                        <p class="eyebrow">Right now</p>
+                        <div class="detail-list" id="about-current"></div>
+                        <p class="eyebrow space-top">Interested in</p>
+                        <div class="tag-row" id="about-interests"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-block reveal">
+                <div class="split-grid">
+                    <div class="glass-panel link-panel">
+                        <h2>Links</h2>
+                        <div class="social-grid" id="about-socials"></div>
+                        <div class="link-row">
+                            <a class="button-ghost" data-resume-link href="/resume/">Open Resume</a>
+                        </div>
+                    </div>
+                    <div class="glass-panel link-panel">
+                        <h2>Contact</h2>
+                        <ul class="contact-list">
+                            <li><span>Email</span> <a data-email-link href="#">Loading...</a></li>
+                            <li><span>Availability</span> <span id="about-availability"></span></li>
+                            <li><span>Preferred topics</span> <span id="about-topics"></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; <span data-current-year></span> <span data-footer-name></span></p>
+        </footer>
+    </div>
+
+    <script type="module" src="/scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="1000" rx="40" fill="#060606"/>
+<rect x="40" y="40" width="1520" height="920" rx="30" fill="url(#paint0_linear)" fill-opacity="0.24" stroke="#FBE7D4" stroke-opacity="0.18"/>
+<rect x="120" y="120" width="1360" height="120" rx="34" fill="#F6E4D4" fill-opacity="0.08"/>
+<rect x="120" y="300" width="420" height="262" rx="30" fill="#F6E4D4" fill-opacity="0.1"/>
+<rect x="590" y="300" width="420" height="262" rx="30" fill="#F6E4D4" fill-opacity="0.1"/>
+<rect x="1060" y="300" width="420" height="262" rx="30" fill="#F6E4D4" fill-opacity="0.1"/>
+<rect x="120" y="604" width="420" height="262" rx="30" fill="#F6E4D4" fill-opacity="0.1"/>
+<rect x="590" y="604" width="420" height="262" rx="30" fill="#F6E4D4" fill-opacity="0.1"/>
+<rect x="1060" y="604" width="420" height="262" rx="30" fill="#F6E4D4" fill-opacity="0.1"/>
+<circle cx="258" cy="178" r="118" fill="url(#paint1_radial)" fill-opacity="0.66"/>
+<text x="120" y="210" fill="#F7F1EB" fill-opacity="0.88" font-family="Avenir Next, Trebuchet MS, sans-serif" font-size="40" letter-spacing="0.16em">PERSONAL SITE / PROJECT GRID</text>
+<defs>
+<linearGradient id="paint0_linear" x1="120" y1="80" x2="1400" y2="940" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE6CE"/>
+<stop offset="1" stop-color="#FFB474" stop-opacity="0.14"/>
+</linearGradient>
+<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(258 178) rotate(90) scale(118)">
+<stop stop-color="#FFE2C5"/>
+<stop offset="1" stop-color="#FFE2C5" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
